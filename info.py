@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '7343be63958388e1d88c2961efe5a9e6')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6622811670:AAE72KucgGLfCRJ8ieKa8VVgtMqNaO0jFyk')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
+USERNAME = environ.get('USERNAME', "https://t.me/Aditya999Max")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001899266690'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+5jSCIw22E2g5MGQ1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001648519555').split()]
