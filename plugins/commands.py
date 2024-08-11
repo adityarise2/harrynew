@@ -344,7 +344,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("READ ME BEFORE DOWNLOADING ", url=f"https://graph.org/Aditya-08-11-3")
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
